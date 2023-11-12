@@ -4,8 +4,7 @@ import 'CounterWidget.dart';
 import 'NestedWidget.dart';
 
 void main() {
-  runApp(MyApp());
-}
+  runApp(MyApp()); }
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
         body:Center(
           child:Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+            children:[
               GreetingWidget(message: 'Hello,Sultanbek!'),
               SizedBox(height: 20),
               CounterWidget(),

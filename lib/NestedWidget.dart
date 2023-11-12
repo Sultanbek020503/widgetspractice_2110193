@@ -8,8 +8,7 @@ class NestedWidget extends StatelessWidget {
       padding:EdgeInsets.all(16),
       decoration:BoxDecoration(
         border:Border.all(color:Colors.black , width: 2),
-        borderRadius: BorderRadius.circular(16),
-      ),
+        borderRadius: BorderRadius.circular(16),),
       child:Column(
         crossAxisAlignment:CrossAxisAlignment.start,
         children:[
